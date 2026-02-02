@@ -93,7 +93,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// Seed (extra bem-vindo): admin no InMemory
+// Seed
 await app.Services.SeedAdminUserAsync();
 
 app.Run();
