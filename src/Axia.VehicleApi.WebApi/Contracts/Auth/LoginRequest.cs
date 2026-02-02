@@ -1,0 +1,3 @@
+namespace Axia.VehicleApi.WebApi.Contracts.Auth;
+
+public sealed record LoginRequest(string Login, string Senha);

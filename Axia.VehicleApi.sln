@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axia.VehicleApi.WebApi", "src\Axia.VehicleApi.WebApi\Axia.VehicleApi.WebApi.csproj", "{7369DD42-8CB3-4C7F-BD52-59247FE8B89B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axia.VehicleApi.Application", "src\Axia.VehicleApi.Application\Axia.VehicleApi.Application.csproj", "{46C88B86-B9FE-4B9C-B999-5B678B741CBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axia.VehicleApi.Infrastructure", "src\Axia.VehicleApi.Infrastructure\Axia.VehicleApi.Infrastructure.csproj", "{5A7312EE-CB97-40BE-A0FE-5FA39122887F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axia.VehicleApi.Domain", "src\Axia.VehicleApi.Domain\Axia.VehicleApi.Domain.csproj", "{7D316F7B-FE2D-46E5-8026-DAD1210F2880}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7369DD42-8CB3-4C7F-BD52-59247FE8B89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7369DD42-8CB3-4C7F-BD52-59247FE8B89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7369DD42-8CB3-4C7F-BD52-59247FE8B89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7369DD42-8CB3-4C7F-BD52-59247FE8B89B}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{46C88B86-B9FE-4B9C-B999-5B678B741CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C88B86-B9FE-4B9C-B999-5B678B741CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C88B86-B9FE-4B9C-B999-5B678B741CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C88B86-B9FE-4B9C-B999-5B678B741CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{5A7312EE-CB97-40BE-A0FE-5FA39122887F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7312EE-CB97-40BE-A0FE-5FA39122887F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7312EE-CB97-40BE-A0FE-5FA39122887F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7312EE-CB97-40BE-A0FE-5FA39122887F}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{7D316F7B-FE2D-46E5-8026-DAD1210F2880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D316F7B-FE2D-46E5-8026-DAD1210F2880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D316F7B-FE2D-46E5-8026-DAD1210F2880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D316F7B-FE2D-46E5-8026-DAD1210F2880}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
