@@ -6,6 +6,6 @@ public sealed class JwtOptions
 
     public string Issuer { get; init; } = "Axia.VehicleApi";
     public string Audience { get; init; } = "Axia.VehicleApi";
-    public string Key { get; init; } = "CHANGE_ME";
+    public string Key { get; init; } = string.Empty;
     public int ExpiresMinutes { get; init; } = 60;
 }
